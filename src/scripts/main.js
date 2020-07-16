@@ -1,5 +1,5 @@
 import { createPlan } from "./plan.js"
-import { createAsparagus } from "./seeds/asparagus.js"
+import {plantSeeds} from "./tractor.js"
 
 const yearlyPlan = createPlan()
-const asparagusSeed = createAsparagus()
+
