@@ -1,4 +1,4 @@
-export const createAsparagus = () => {
+export const createCorn = () => {
     const cornArray = [
     {
         type: "Corn",

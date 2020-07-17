@@ -6,8 +6,9 @@ import {Catalog} from "./catalog.js"
 
 const yearlyPlan = createPlan()
 console.log(yearlyPlan)
+plantSeeds(yearlyPlan)
 const arrayOfPlants = usePlants()
-plantSeeds(arrayOfPlants)
+console.log(arrayOfPlants)
 const allHarvestedPlants = harvestPlants(arrayOfPlants)
 console.log(allHarvestedPlants)
 
