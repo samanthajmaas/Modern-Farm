@@ -1,19 +1,17 @@
-import {usePlants} from "./field.js"
-
-let harvestedPlants = []
-
 export const harvestPlants = (plantArray) => {
+let harvestedPlants = []
 for (const seed of plantArray) {
-   if (plantObj.type === "Corn") {
-    for (let j = 0; j < plantObj.output/2; j++) {
+   if (seed.type === "Corn") {
+    for (let j = 0; j < seed.output/2; j++) {
         harvestedPlants.push(seed)
     }
 
     } else {
-        for (let i = 0; i < plantObj.output; i++) {
+        for (let i = 0; i < seed.output; i++) {
             harvestedPlants.push(seed)
         }
     }
-    return harvestedPlants
+
 }
+    return harvestedPlants
 }
